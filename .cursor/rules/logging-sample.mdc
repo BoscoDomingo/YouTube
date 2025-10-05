@@ -1,0 +1,41 @@
+---
+globs: *.ts,*.js,*.tsx,*.jsx
+description: Logging conventions and best practices for this project
+---
+
+# Logging Conventions (Sample Rule)
+
+This is a sample rule to demonstrate how Cursor Rules work.
+
+## Purpose
+This rule applies to TypeScript and JavaScript files and provides guidance on logging.
+
+## Guidelines
+
+When adding logging statements:
+- Use descriptive messages that explain **what** is happening
+- Include relevant context variables
+- Use appropriate log levels:
+  - `error` for errors that need attention
+  - `warn` for potential issues
+  - `info` for general information
+  - `debug` for detailed diagnostic information
+
+## Example
+
+**Good:**
+```typescript
+console.log('User authentication successful', { userId, timestamp });
+```
+
+**Avoid:**
+```typescript
+console.log('here'); // Too vague
+```
+
+## Notes
+This rule demonstrates:
+- ✅ Frontmatter metadata with `globs` and `description`
+- ✅ Markdown formatting
+- ✅ Practical coding guidance
+- ✅ File pattern matching (applies only to .ts, .js, .tsx, .jsx files)

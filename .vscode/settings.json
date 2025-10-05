@@ -1,5 +1,9 @@
 {
 	"zoombar.configurationTarget": "workspace",
-	"window.zoomLevel": 0.5227586988632231,
-	"editor.minimap.enabled": false
+	"window.zoomLevel": 1,
+	"editor.minimap.enabled": false,
+	"zoombar.defaultZoom": 120,
+	"jjk.enableAnnotations": false,
+	"betterGitLineBlame.showInlineAnnotations": false,
+	"git.blame.editorDecoration.enabled": false
 }
