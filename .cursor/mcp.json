@@ -1,0 +1,9 @@
+{
+	"mcpServers": {
+		"chrome-devtools": {
+      "command": "pnpx -y chrome-devtools-mcp@latest",
+      "env": {},
+      "args": []
+    }
+	}
+}
